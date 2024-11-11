@@ -1,0 +1,820 @@
+
+@font-face {
+    font-family: "GothamSVN";
+    src: url("fonts/SVN-Gotham-Regular.otf");
+}
+
+@font-face {
+    font-family: "GothamSVN";
+    src: url("fonts/SVN-Gotham Light.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "GothamSVN";
+    src: url("fonts/SVN-Gotham XLight.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "GothamSVN";
+    src: url("fonts/SVN-Gotham Thin.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "GothamSVN";
+    src: url("fonts/SVN-Gotham-Black.otf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "GothamSVN";
+    src: url("fonts/SVN-Gotham-Bold.otf");
+    font-weight: 700;
+}
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1200px;
+    }
+}
+
+body{
+    background: linear-gradient(180deg, rgba(190,0,0,0.7) 10%,  rgba(190,0,0,0.7) 100%);
+    font-family: "GothamSVN";
+}
+
+.header{
+    background-image:url('images/canh-mai.png'), url('images/canh-dao.png'), url('images/top-firework.png'), url('images/dragon-left.png'), url('images/dragon-right.png');
+    background-repeat:  no-repeat, no-repeat, no-repeat,  no-repeat,  no-repeat;
+    background-position: left top 95px, right top 70px, top center, left 10px bottom 170px, right 10px bottom 170px;
+    background-size: 33%, 30%, 150px, 22%, 22%;
+}
+
+.kv-bg{
+    background-image: url('images/kv-bg.png');
+    background-repeat:  no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.kv-bg-color{
+    background: url('images/pattern-kim-tuyen.png'), linear-gradient(180deg, rgba(190,0,0,0.7) 10%, rgba(0,0,0,0) 100%);
+    background-repeat:  no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+.header-logo{
+    padding-top: 12px;
+}
+
+.kv-main-text{
+    max-width: 170px;
+    margin-top: 0;
+}
+
+.logo-go{
+    max-width: 100px;
+}
+
+.logo-central{
+    max-width: 150px;
+}   
+
+.kv-text-01{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.kv-text-02{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.kv-text-03{
+    font-size: 15px;
+}
+
+.kv-text-04{
+    font-size: 15px;
+}
+
+.text-shadow{
+    text-shadow: 10px 3px 6px #0000005c;
+}
+
+.text-shadow-small{
+    text-shadow: 5px 2px 5px #0000005c;
+}
+
+.footer{
+    background-color: #740504;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-text{
+    font-size: 13px;
+    font-weight:700;
+    color: #FBF9CB;
+}
+
+.footer-desc-go-vietnam{
+    color: #FBF9CB;
+    font-size: 11px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+.footer-desc-go-vietnam a:hover{
+    color: #fff400;
+}
+
+.logo-go-footer{
+    max-height: 40px;
+    align-self: self-start;
+}
+
+.body-content-bg{
+    background-image:url('images/body-bg.png');
+    background-repeat:  repeat-y;
+    background-position: top center;
+    background-size: contain;
+    padding-top: 60px;
+}
+
+/* Promotion text */
+.promotion-item{
+    border-top: 4px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    color: #FFFDE2;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.promotion-item{
+    line-height: 35px;
+    font-weight: 300;
+}
+
+.promotion-item .special-promotion{
+    font-weight: 900;
+    color: #FFF;
+}
+
+.promotion-item.text-01{
+    font-size: 25px;
+    background-color: #B00F15;
+    box-shadow: 0 40px 50px -32px #222;
+}
+
+.promotion-item.text-02{
+    font-size: 21px;
+    background-color: rgba(189, 0, 7, 0.5);
+    box-shadow: 0 40px 50px -32px #222;
+    line-height: 30px;
+}
+
+.promotion-item.text-03{
+    font-size: 18px;
+    background-color: rgba(224, 16, 23, 0.5);
+    line-height: 28px;
+}
+
+.promotion-item.text-04{
+    font-size: 16px;
+    background-color: rgba(224, 16, 23, 0.5);
+    line-height: 25px;
+}
+
+.promotion-item.last-item{
+    border-bottom: 3px solid;
+}
+
+.promotion-note{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #b50000d6;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.border-gradient-golden {
+    border-image-source: linear-gradient(90deg, rgba(255,245,133,1) 0%, rgba(255,196,0,1) 49%, rgba(180,121,38,1) 100%);
+}
+
+/* Footer */
+
+.footer-social-icon{
+    max-width: 32px;
+}
+
+.footer-barcode{
+    max-width: 107px;
+}
+
+.footer-group-block .store-icon{
+    max-width: 110px;
+}
+
+.form-dat-hang{
+    background-color: #C31118;
+    border-radius: 14px;
+    box-shadow: 0 0 10px #600;
+    position: relative;
+    padding: 50px 30px 30px 30px;
+    margin-bottom: 50px;
+}
+
+.submit-buton{
+    border-radius: 8px;
+    background-color: #FFF;
+    color: #C31118;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    padding: 8px 40px;
+    width: 100%;
+}
+
+.form-desc{
+    font-size: 18px;
+    font-weight: 300;
+    color: #FEEFD7;
+    line-height: 24px;
+}
+
+.form-label{
+    color: #FEEFD7;
+    font-size: 18px;
+}
+
+select.form-input{
+    font-size: 16;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    transition: background-color 5000s ease-in-out 0s;
+    /* box-shadow: inset 0 0 20px 20px #23232329; */
+}
+
+.form-input{
+    background-color: transparent;
+    border: none;
+    display: block;
+    font-size: 18px;
+    border-bottom: 2px solid #FEEFD7;
+    color: #FEEFD7;
+}
+
+option:not(:checked) {
+    background-color: #D90000;
+}
+
+.form-item{
+    padding-right: 0;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.form-item input{
+    width: 100%;
+}
+
+.form-note{
+    background-color: #A60D13;
+    border: none;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FEEFD7;
+}
+
+.form-note::-ms-input-placeholder { /* Edge 12-18 */
+    color: rgba(255,255,255, 0.6);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.form-note::placeholder {
+    color: rgba(255,255,255, 0.6);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.form-header{
+    padding: 10px 20px;
+    width: 75%;
+    border-radius: 18px;
+    color: #AC0208;
+    font-weight: 700;
+    font-size: 22px;
+    background: linear-gradient(90deg, #D99E38 -2.16%, #FFF585 12.88%, #EBBC53 25.36%, #FFF28F 74.13%, #F9E581 74.92%, #EDC964 76.89%, #E4B54F 78.85%, #DFA942 80.77%, #DDA53E 82.59%, #E1AC43 85.17%, #EEBF50 88.88%, #FBD35E 91.85%, #F9D15D 95.2%, #F4CA58 96.66%, #EABD50 97.76%, #DCAB45 98.67%, #C99437 99.47%, #B47926 100.16%);
+}
+
+.gio-qua-tet-container{
+    position: relative;
+    border-radius: 18px;
+    padding: 9px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+    height: 1330px;
+    background: linear-gradient(90deg, #D99E38 -2.16%, #FFF585 12.88%, #EBBC53 25.36%, #FFF28F 74.13%, #F9E581 74.92%, #EDC964 76.89%, #E4B54F 78.85%, #DFA942 80.77%, #DDA53E 82.59%, #E1AC43 85.17%, #EEBF50 88.88%, #FBD35E 91.85%, #F9D15D 95.2%, #F4CA58 96.66%, #EABD50 97.76%, #DCAB45 98.67%, #C99437 99.47%, #B47926 100.16%);;
+}
+
+.gio-qua-content{
+    background-color: #C31118;
+    border-radius: 10px;
+    padding: 25px 25px 5px 5px;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+
+.ribbon{
+    width: 80%;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+/* Custom scroll bar */
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+.section {
+    max-height: 1250px;
+    padding: 1rem;
+    overflow-y: auto;
+    direction: ltr;
+    scrollbar-color: #d4aa70;
+    scrollbar-width: thin;
+}
+
+
+.section::-webkit-scrollbar {
+    width: 10px;
+}
+
+.section::-webkit-scrollbar-track {
+    background-color: rgba(123, 9, 7, 0.4);
+    border-radius: 100px;
+}
+
+.section::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #FBF9CB 0%, #E4D18C 100%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.product-grid{
+    padding: 0px;
+}
+
+.product-grid img{
+    max-width: 140px;
+}
+
+.product-item{
+    padding: 10px 10px 20px 10px;
+    cursor: pointer;
+}
+
+.product-item .product-name{
+    font-size: 16px;
+}
+
+.product-item .product-price{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.product-item .product-package{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.go-to-top-button{
+    width: 80px;
+    bottom: 50px;
+    right: 10px;
+    position: fixed;
+    display: none;
+}
+
+.copyright-block{
+    max-width: 227px;
+}
+
+.scan-code-block{
+    max-width: 150px;
+}
+
+.appstore-button-title{
+    /* text-align: center; */
+}
+
+.hotline-button{
+    color: #FBF9CB;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hotline-button:hover{
+    color: #fff400;
+}
+
+.modal-content{
+    background-color: #C31118;
+    border-radius: 20px;
+}
+
+.modal-header{
+    border: none !important;
+    padding: 30px 30px 0 30px;
+}
+
+.apply-for-store-note{
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFF;
+    font-style: italic;
+}
+
+.modal-header .btn-close{
+    background: transparent url('data:image/svg+xml,<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.75635 1.58936L24.7563 24.5894" stroke="url(%23paint0_linear_111_4048)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M24.7563 1.58936L1.75635 24.5894" stroke="url(%23paint1_linear_111_4048)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="paint0_linear_111_4048" x1="1.19345" y1="13.0908" x2="25.0199" y2="13.0908" gradientUnits="userSpaceOnUse"><stop offset="0.0027933" stop-color="%23D99E38"/><stop offset="0.148" stop-color="%23FFF585"/><stop offset="0.2684" stop-color="%23EBBC53"/><stop offset="0.7392" stop-color="%23FFF28F"/><stop offset="0.7468" stop-color="%23F9E581"/><stop offset="0.7659" stop-color="%23EDC964"/><stop offset="0.7848" stop-color="%23E4B54F"/><stop offset="0.8033" stop-color="%23DFA942"/><stop offset="0.8209" stop-color="%23DDA53E"/><stop offset="0.8458" stop-color="%23E1AC43"/><stop offset="0.8816" stop-color="%23EEBF50"/><stop offset="0.9103" stop-color="%23FBD35E"/><stop offset="0.9426" stop-color="%23F9D15D"/><stop offset="0.9567" stop-color="%23F4CA58"/><stop offset="0.9673" stop-color="%23EABD50"/><stop offset="0.9761" stop-color="%23DCAB45"/><stop offset="0.9838" stop-color="%23C99437"/><stop offset="0.9905" stop-color="%23B47926"/></linearGradient><linearGradient id="paint1_linear_111_4048" x1="25.3192" y1="13.0908" x2="1.49283" y2="13.0908" gradientUnits="userSpaceOnUse"><stop offset="0.0027933" stop-color="%23D99E38"/><stop offset="0.148" stop-color="%23FFF585"/><stop offset="0.2684" stop-color="%23EBBC53"/><stop offset="0.7392" stop-color="%23FFF28F"/><stop offset="0.7468" stop-color="%23F9E581"/><stop offset="0.7659" stop-color="%23EDC964"/><stop offset="0.7848" stop-color="%23E4B54F"/><stop offset="0.8033" stop-color="%23DFA942"/><stop offset="0.8209" stop-color="%23DDA53E"/><stop offset="0.8458" stop-color="%23E1AC43"/><stop offset="0.8816" stop-color="%23EEBF50"/><stop offset="0.9103" stop-color="%23FBD35E"/><stop offset="0.9426" stop-color="%23F9D15D"/><stop offset="0.9567" stop-color="%23F4CA58"/><stop offset="0.9673" stop-color="%23EABD50"/><stop offset="0.9761" stop-color="%23DCAB45"/><stop offset="0.9838" stop-color="%23C99437"/><stop offset="0.9905" stop-color="%23B47926"/></linearGradient></defs></svg>');
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+
+.product-name-in-modal{
+    padding: 10px 20px;
+    width: 75%;
+    border-radius: 18px;
+    color: #AC0208;
+    /* font-weight: 700; */
+    font-size: 22px;
+    background: linear-gradient(90deg, #D99E38 -2.16%, #FFF585 12.88%, #EBBC53 25.36%, #FFF28F 74.13%, #F9E581 74.92%, #EDC964 76.89%, #E4B54F 78.85%, #DFA942 80.77%, #DDA53E 82.59%, #E1AC43 85.17%, #EEBF50 88.88%, #FBD35E 91.85%, #F9D15D 95.2%, #F4CA58 96.66%, #EABD50 97.76%, #DCAB45 98.67%, #C99437 99.47%, #B47926 100.16%);
+}
+
+.dragon-popup{
+    max-width : 225px;
+}
+
+@media screen and (min-width: 390px){
+    
+}
+
+@media screen and (min-width: 420px){
+
+    .header{
+        background-position: left top 105px, right top 70px, top center, left 10px bottom 170px, right 10px bottom 170px;
+        background-size: 33%, 33%, 150px, 22%, 22%;
+    }
+
+    .kv-main-text{
+        max-width: 190px;
+    }
+}
+
+@media screen and (min-width: 437px){
+    .header{
+        background-position: left top 100px, right top 70px, top center, left 10px bottom 120px, right 10px bottom 120px;
+        background-size: 33%, 33%, 150px, 22%, 22%;
+    }
+}
+
+@media screen and (min-width: 530px){
+    .header{
+        background-position: left top 100px, right top 50px, top center, left 10px bottom 100px, right 10px bottom 100px;
+        background-size: 33%, 33%, 150px, 22%, 22%;
+    }
+}
+
+@media screen and (min-width: 630px){
+    .header{
+        background-position: left top 90px, right top 30px, top center, left 10px bottom 50px, right 10px bottom 50px;
+        background-size: 33%, 33%, 150px, 22%, 22%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .header{
+        background-position: left top 100px, right top 40px, top center, left 10px bottom 40px, right 10px bottom 40px;
+        background-size: 33%, 33%, 150px, 22%, 22%;
+    }
+}
+
+@media screen and (min-width: 576px){
+
+}
+
+@media screen and (min-width: 768px){
+    
+    .header-logo{
+        padding-top: 32px;
+    }
+
+    .header{
+        background-position: left top 100px, right top 40px, top center, left 30px bottom 110px, right 30px bottom 110px;
+        background-size: 33%, 33%, 200px, 22%, 22%;
+    }
+
+    .kv-main-text{
+        max-width: 250px;
+    }
+
+    .scan-code-block{
+        max-width: 280px;
+    }
+
+    .appstore-button-title{
+        /* text-align: left; */
+    }
+
+    .submit-buton{
+        width: unset;
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (min-width: 820px){
+    .header{
+        background-position: left top 100px, right top 20px, top center, left 30px bottom 60px, right 30px bottom 60px;
+        background-size: 33%, 33%, 200px, 22%, 22%;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    .header{
+        background-position: left top 100px, right top 20px, top center, left 30px bottom 60px, right 30px bottom 60px;
+        background-size: 33%, 33%, 200px, 22%, 22%;
+    }
+
+    .logo-go{
+        max-width: 150px;
+    }
+    
+    .logo-central{
+        max-width: 200px;
+    }  
+
+    .kv-main-text{
+        margin-top: -25px;
+        max-width: 300px;
+    }
+
+    .kv-text-01{
+        font-size: 40px;
+    }
+
+    .kv-text-02{
+        font-size: 20px;
+    }
+    
+    .kv-text-03{
+        font-size: 20px;
+    }
+    
+    .kv-text-04{
+        font-size: 20px;
+    }
+
+    .body-content-bg{
+        padding-top: 90px;
+    }
+
+    .form-desc{
+        font-size: 25px;
+        line-height: 38px;
+    }
+
+    .form-item{
+        padding-right: 50px;
+        flex-basis: 100%;
+        width: unset;
+    }
+    
+    .form-label{
+        font-size: 22px;
+    }
+
+    .form-input{
+        font-size: 22px;
+    }
+
+    select.form-input{
+        font-size: 18px;
+    }
+
+    .form-note::-ms-input-placeholder { /* Edge 12-18 */
+        font-size: 25px;
+    }
+    
+    .form-note::placeholder {
+        font-size: 25px;
+    }
+    
+    .ribbon{
+        width: unset;
+    }
+
+    .product-grid{
+        padding: 0px 70px;
+    }
+    
+    .product-grid img{
+        max-width: 183px;
+    }    
+
+    .logo-go-footer{
+        max-height: 83px;
+        align-self: center;
+    }
+
+    .gio-qua-tet-container{
+        margin-top: 150px;
+        margin-bottom: 50px;
+        height: 1400px;
+    }
+
+    .promotion-item{
+        padding: 30px 15px;
+    }
+
+    .hotline-button{
+        font-size: 25px;
+    }
+
+    .footer-group-block .store-icon{
+        max-width: 136px;
+    }
+
+    .copyright-block{
+        max-width: 280px;
+    }
+
+    .promotion-note{
+        font-size: 22px;
+    }
+
+    .go-to-top-button{
+        width: 105px;
+    }    
+}
+
+@media screen and (min-width: 1200px){
+
+    .header{
+        background-position: left top 240px, right top 100px, top center, left 30px bottom 10px, right 30px bottom 10px;
+        background-size: 38%, 38%, 376px, 22%, 22%;
+    }
+
+    .logo-go{
+        max-width: 286px;
+    }
+    
+    .logo-central{
+        max-width: 283px;
+    }   
+
+    .kv-main-text{
+        max-width: 382px;
+        margin-top: -25px;
+    }
+
+    .kv-text-01{
+        font-size: 50px;
+    }
+    
+    .kv-text-02{
+        font-size: 25px;
+    }
+    
+    .kv-text-03{
+        font-size: 25px;
+    }
+    
+    .kv-text-04{
+        font-size: 25px;
+    }
+
+    .form-header{
+        font-size: 40px;
+        padding: 15px 70px;
+        width: unset !important;
+    }
+
+    .form-dat-hang{
+        padding: 70px 100px 70px 100px;
+        margin-bottom: 70px;
+    }
+    
+    .form-desc{
+        font-size: 30px;
+    }
+
+    .form-label{
+        font-size: 25px;
+    }
+
+    .form-input{
+        font-size: 25px;
+    }
+
+    select.form-input{
+        font-size: 22px;
+    }
+
+    .promotion-item.text-01{
+        font-size: 48px;
+        line-height: 55px;
+    }
+    
+    .promotion-item.text-02{
+        font-size: 40px;
+        line-height: 55px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    .promotion-item.text-03{
+        font-size: 36px;
+        line-height: 45px;
+        padding-left: 135px;
+        padding-right: 135px;
+    }
+
+    .promotion-item.text-04{
+        font-size: 30px;
+        line-height: 35px;
+        padding-left: 235px;
+        padding-right: 235px;
+    }
+
+    .product-grid{
+        padding: 0px 100px;
+    }
+
+    .product-item{
+        padding: 15px 15px 50px 15px;
+    }
+    
+    .product-item .product-name{
+        font-size: 25px;
+    }
+    
+    .product-item .product-price{
+        font-size: 30px;
+    }
+    
+    .product-item .product-package{
+        font-size: 18px;
+    }
+    
+    .gio-qua-content{
+        padding: 70px 25px 5px 5px;
+    }
+
+    .copyright-block{
+        max-width: 150px;
+    }
+
+    .scan-code-block{
+        max-width: unset;
+    }
+
+    .promotion-note{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 1500px){
+    .header{
+        background-position: left top 200px, right top 100px, top center, left 30px bottom 70px, right 30px bottom 70px;
+        background-size: 33%, 33%, 376px, 22%, 22%;
+    }
+
+    .kv-main-text{
+        max-width: 500px;
+    }
+}
