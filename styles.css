@@ -39,8 +39,61 @@
     }
 }
 
+
+/* 2025 style */
+
+.kv-2025{
+    background-image: url("images/2025/header-wave@2x.png");
+    background-position: bottom 50px center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* xóa form header ở dưới - thay bằng đoạn này */
+.form-header{
+    width: 75%;
+}
+
+.firework-left-01{
+    background-image: url("images/2025/left-01@2x.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    background-color: #c31119;
+}
+
+.header-logo{
+    position: absolute;
+    top: 20px;
+    left : 20px;
+}
+
+.logo-go{
+    max-width: 120px;
+}
+
+.block-chiet-khau{
+    position: relative;
+}
+
+.bao-li-xi-01{
+    position: absolute;
+    bottom: -20px;
+    left: -60px;
+    width: 200px;
+}
+
+/* end of 2025 style */
+
 body{
-    background: linear-gradient(180deg, rgba(190,0,0,0.7) 10%,  rgba(190,0,0,0.7) 100%);
+    background: rgb(195, 17, 25);
+
+    background: url("images/2025/main-parttern@2x-opt.png"), url("images/2025/left-01@2x.png"), url("images/2025/right-top-01@2x.png"),url("images/2025/left-bottom02@2x.png"), url("images/2025/right-02@2x.png"), linear-gradient(90deg, rgb(143 0 6) 0%, rgba(226, 18, 18, 1) 50%, rgba(143, 0, 6, 1) 100%);
+
+    background-position: top center, top left -10%, top right, left bottom, right center;
+    background-size: 100%, auto auto, auto auto, 20%, 20%;
+    background-repeat: no-repeat;
+    background-blend-mode: normal, screen, screen, screen, screen, normal;
     font-family: "GothamSVN";
 }
 
@@ -65,17 +118,10 @@ body{
     background-size: contain;
 }
 
-.header-logo{
-    padding-top: 12px;
-}
 
 .kv-main-text{
     max-width: 170px;
     margin-top: 0;
-}
-
-.logo-go{
-    max-width: 100px;
 }
 
 .logo-central{
@@ -112,6 +158,7 @@ body{
     background-color: #740504;
     padding-top: 30px;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .footer-text{
@@ -138,7 +185,8 @@ body{
 }
 
 .body-content-bg{
-    background-image:url('images/body-bg.png');
+    /* 2025 style: remove this  */
+    /* background-image:url('images/body-bg.png'); */
     background-repeat:  repeat-y;
     background-position: top center;
     background-size: contain;
@@ -191,7 +239,7 @@ body{
 }
 
 .promotion-item.last-item{
-    border-bottom: 3px solid;
+    /* border-bottom: 3px solid; */
 }
 
 .promotion-note{
@@ -315,15 +363,6 @@ option:not(:checked) {
     font-size: 18px;
 }
 
-.form-header{
-    padding: 10px 20px;
-    width: 75%;
-    border-radius: 18px;
-    color: #AC0208;
-    font-weight: 700;
-    font-size: 22px;
-    background: linear-gradient(90deg, #D99E38 -2.16%, #FFF585 12.88%, #EBBC53 25.36%, #FFF28F 74.13%, #F9E581 74.92%, #EDC964 76.89%, #E4B54F 78.85%, #DFA942 80.77%, #DDA53E 82.59%, #E1AC43 85.17%, #EEBF50 88.88%, #FBD35E 91.85%, #F9D15D 95.2%, #F4CA58 96.66%, #EABD50 97.76%, #DCAB45 98.67%, #C99437 99.47%, #B47926 100.16%);
-}
 
 .gio-qua-tet-container{
     position: relative;
@@ -337,7 +376,7 @@ option:not(:checked) {
 }
 
 .gio-qua-content{
-    background-color: #C31118;
+    background-color: #a60c14;
     border-radius: 10px;
     padding: 25px 25px 5px 5px;
     width: 100%;
@@ -347,6 +386,15 @@ option:not(:checked) {
 
 .ribbon{
     width: 80%;
+}
+
+.bao-li-xi-02{
+    position: absolute;   
+}
+
+.bao-li-xi-03{
+    position: absolute;
+    width: 140px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// */
@@ -526,14 +574,28 @@ option:not(:checked) {
 }
 
 @media screen and (min-width: 768px){
-    
-    .header-logo{
-        padding-top: 32px;
-    }
 
+    .header-logo{
+        top: 20px;
+        left : 70px;
+    }
+    
+    .logo-go{
+        max-width: 150px;
+    }
+    
     .header{
         background-position: left top 100px, right top 40px, top center, left 30px bottom 110px, right 30px bottom 110px;
         background-size: 33%, 33%, 200px, 22%, 22%;
+    }
+
+    .form-header{
+        width: 50%;
+    }    
+
+     
+    .ribbon{
+        width: 60%;
     }
 
     .kv-main-text{
@@ -569,8 +631,9 @@ option:not(:checked) {
         background-size: 33%, 33%, 200px, 22%, 22%;
     }
 
-    .logo-go{
-        max-width: 150px;
+
+    .form-header{
+        width: 40%;
     }
     
     .logo-central{
@@ -580,6 +643,13 @@ option:not(:checked) {
     .kv-main-text{
         margin-top: -25px;
         max-width: 300px;
+    }
+
+    .bao-li-xi-01{
+        position: absolute;
+        bottom: -25px;
+        left: -30px;
+        width: 150px;
     }
 
     .kv-text-01{
@@ -596,10 +666,6 @@ option:not(:checked) {
     
     .kv-text-04{
         font-size: 20px;
-    }
-
-    .body-content-bg{
-        padding-top: 90px;
     }
 
     .form-desc{
@@ -634,7 +700,7 @@ option:not(:checked) {
     }
     
     .ribbon{
-        width: unset;
+        width: 50%;
     }
 
     .product-grid{
@@ -683,19 +749,42 @@ option:not(:checked) {
 
 @media screen and (min-width: 1200px){
 
+    .header-logo{
+        top: 30px;
+        left : 160px;
+    }
+    
+    .logo-go{
+        max-width: 200px;
+    }
+    
     .header{
         background-position: left top 240px, right top 100px, top center, left 30px bottom 10px, right 30px bottom 10px;
         background-size: 38%, 38%, 376px, 22%, 22%;
-    }
-
-    .logo-go{
-        max-width: 286px;
     }
     
     .logo-central{
         max-width: 283px;
     }   
 
+    .bao-li-xi-01{
+        bottom: -20px;
+        left: -60px;
+        width: 200px;
+    }
+
+    .bao-li-xi-02{
+        position: absolute;   
+        bottom: -30px;
+        right: -50px;
+        width: 140px;    
+    }
+
+    .bao-li-xi-03{
+        top: -150px;
+        left: -40px;
+    }    
+    
     .kv-main-text{
         max-width: 382px;
         margin-top: -25px;
@@ -715,12 +804,6 @@ option:not(:checked) {
     
     .kv-text-04{
         font-size: 25px;
-    }
-
-    .form-header{
-        font-size: 40px;
-        padding: 15px 70px;
-        width: unset !important;
     }
 
     .form-dat-hang{
