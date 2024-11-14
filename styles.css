@@ -201,11 +201,12 @@ body{
     color: #FFFDE2;
     text-align: center;
     padding: 20px 15px;
-}
-
-.promotion-item{
     line-height: 35px;
     font-weight: 300;
+}
+
+.promotion-item.first-item{
+    border: none;
 }
 
 .promotion-item .special-promotion{
@@ -276,6 +277,13 @@ body{
     position: relative;
     padding: 50px 30px 30px 30px;
     margin-bottom: 50px;
+}
+
+form.wrapper-content{
+    background-image: url("images/2025/big-dong-xu-right@2x.png");
+    background-position: top 200px right -65px;
+    background-repeat: no-repeat;
+    background-size: 150px;
 }
 
 .submit-buton{
@@ -395,6 +403,48 @@ option:not(:checked) {
 .bao-li-xi-03{
     position: absolute;
     width: 140px;
+}
+
+.dong-xu-mo-01{
+    position: absolute;
+    top: -20px;
+    right: 50px;
+    width: 50px;
+}
+
+.dong-xu-mo-02{
+    position: absolute;
+    bottom: -20px;
+    right: -40px;
+    width: 80px;
+}
+
+.dong-xu-02{
+    position: absolute;
+    right: 0;
+    width: 120px;
+    top: 40%;
+}
+
+.dong-xu-nho-01{
+    position: absolute;
+    width: 70px;
+    top: -25px;
+    left: -35px;
+}
+
+.dong-xu-nho-02{
+    position: absolute;
+    width: 50px;
+    bottom: 200px;
+    right: -35px;
+}
+
+.dong-xu-mo-flip-left{
+    position: absolute;
+    width: 120px;
+    bottom: 200px;
+    left: -50px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////// */
@@ -626,11 +676,16 @@ option:not(:checked) {
 
 @media screen and (min-width: 992px){
 
+    .dong-xu-mo-01{
+        top: -30px;
+        right: 50px;
+        width: 80px;
+    }
+
     .header{
         background-position: left top 100px, right top 20px, top center, left 30px bottom 60px, right 30px bottom 60px;
         background-size: 33%, 33%, 200px, 22%, 22%;
     }
-
 
     .form-header{
         width: 40%;
