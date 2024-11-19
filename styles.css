@@ -513,6 +513,7 @@ option:not(:checked) {
     right: 10px;
     position: fixed;
     display: none;
+    z-index:9999;
 }
 
 .copyright-block{

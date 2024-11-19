@@ -94,9 +94,13 @@
                         <div class="form-item mt-4 mt-lg-0">
                             <label for="range-price" class="form-label">Khu vực muốn giao hàng</label>
                             <select id="stores" name="stores" class="form-input w-100">
-                                <option value="122">GO! Trường Chinh</option>
-                                <option value="101">Big C Đồng Nai</option>
-                                <option value="140">GO! Mỹ Tho</option>
+                                <option value="">TP. Hồ Chí Minh</option>
+                                <option value="">Thủ Đô Hà Nội</option>
+                                <option value="">TP. Hải Phòng</option>
+                                <option value="">TP. Đà Nẵng</option>
+                                <option value="">Tỉnh Đồng Nai</option>
+                                <option value="">Tỉnh Bình Dương</option>
+                                <option value="">TP. Cần Thơ</option>
                             </select>
                         </div>
                         <div class="form-item">
@@ -189,7 +193,8 @@
                     <div class="gio-qua-content">
 
                         <div class="section">
-                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 product-grid">
+                            <!-- đổi class Như hiện tại để hiện 2 cột từ mobile -->
+                            <div class="row row-cols-2 row-cols-lg-3 product-grid">
                                 <div class="col text-center product-item" data-bs-toggle="modal"
                                     data-bs-target="#exampleModal">
                                     <img src="images/product.png" class="img-fluid" />
@@ -383,26 +388,29 @@
                 </div>
                 <div class="modal-body">
                     <div class="d-flex flex-row align-items-center justify-content-center">
-                        <div class="product-name-in-modal text-center">TẾT ĐOÀN VIÊN THỊNH VƯỢNG</div>
+                        <!-- Đổi TẾT ĐOÀN VIÊN THỊNH VƯỢNG => TẾT SUM HỌP -->
+                        <div class="product-name-in-modal text-center">TẾT SUM HỌP</div>
                     </div>
-                    <div class="mt-4 px-5">
-                        <p class="text-white text-center">
-                            - Nước ngọt Pet Pepsi Cola 1.5L
-                            - Bánh Coffeejoy 78g
-                            - Kẹo Alpenliebe 115.5g
-                            - Cà phê G7 hòa tan đen hộp 15 gói *2g
-                            - Đậu phộng Oishi 85g các loại
+                    <div class="mt-4 px-2 px-lg-5">
+                        <p class="text-white text-left">
+                            - Nước ngọt Pet Pepsi Cola 1.5L<br>
+                            - Bánh Coffeejoy 78g<br>
+                            - Kẹo Alpenliebe 115.5g<br>
+                            - Cà phê G7 hòa tan đen hộp 15 gói *2g<br>
+                            - Đậu phộng Oishi 85g các loại<br>
                             - Hộp quà
                         </p>
                         <p class="apply-for-store-note text-center">
-                            Chỉ áp dụng tại các cửa hàng tại Đà Nẵng, Huế, Đà Lạt, Buôn Mê Thuột, Quảng Ngãi, Nha Trang
+                            <!-- Đổi câu text mới -->
+                            Áp dụng cho tất cả siêu thị.
                         </p>
                     </div>
-                    <!-- <div class="d-flex flex-row align-items-end justify-content-end">
+                    <!-- Bật lại con rồng trong popup -->
+                    <div class="d-flex flex-row align-items-end justify-content-end">
                         <div class="dragon-popup">
                             <img src="images/dragon-popup.png" class="img-fluid" />
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>
